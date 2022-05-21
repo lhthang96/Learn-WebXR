@@ -70,7 +70,7 @@ var FBXLoader = ( function () {
 
 	function FBXLoader( manager ) {
 
-		Loader.call( this, manager );
+		new Loader(manager);
 
 	}
 
